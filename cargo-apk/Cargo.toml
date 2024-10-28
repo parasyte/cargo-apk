@@ -13,7 +13,7 @@ rust-version = "1.70"
 
 [dependencies]
 anyhow = "1.0.57"
-cargo-subcommand = "0.12"
+cargo-subcommand = { git = "https://github.com/parasyte/cargo-subcommand.git", rev = "c6beabe1c94d06713bcd97ef673cca996430ccb2" }
 clap = { version = "4", features = ["derive"] }
 dunce = "1"
 env_logger = "0.10"
